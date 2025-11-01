@@ -1,0 +1,19 @@
+# Python 虚拟环境
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ChromaDB 数据库
+chroma_db/
+
+# 模型缓存
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 日志
+*.log
+nohup.out

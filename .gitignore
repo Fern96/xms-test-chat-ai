@@ -1,0 +1,71 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+pzh
+steps
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 客户端环境变量（敏感配置）
+client/.env.local
+client/.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# SQLite database files
+*.db
+*.db-wal
+*.db-shm
+server/db/chat_studio.db*
+
+# 临时文件和缓存
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# 操作系统文件
+Thumbs.db
+.DS_Store
+
+# 备份文件
+*.bak
+*.backup
+*~
+
+# 测试覆盖率报告
+coverage/
+.nyc_output/
+
+# 运行时文件
+*.pid
+*.seed
+*.pid.lock
+
+# 其他常见忽略项
+.vscode/settings.json
+.history/
