@@ -14,7 +14,7 @@
 </div>
 
 <div align="center">
-  <img src="./client/public/images/Chat-ai.png" alt="Chat Studio" width="1000" />
+  <img src="./client/public/images/chat-ai.png" alt="Chat Studio" width="1000" />
 </div>
 
 **Chat Studio：** 一个开源的 AI 对话平台，支持多会话并发、知识库增强与数据分析。前端基于 React + TypeScript 构建，后端采用 Node.js。
@@ -130,7 +130,7 @@ graph TB
   - **侧边抽屉** ：知识库管理界面以抽屉形式从右侧滑出，不影响主聊天界面
   - **卡片展示** ：文档以卡片形式展示，包含标题、分类、标签、更新时间、内容预览
 
-  <div align="center">
+  <div>
     <img src="./client/public/images/knowledge-base.png" alt="Chat Studio" width="1000" />
     <img src="./client/public/images/rag.png" alt="Chat Studio" width="1000" />
     <img src="./client/public/images/rag-test.png" alt="Chat Studio" width="1000" />
